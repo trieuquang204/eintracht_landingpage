@@ -1,0 +1,313 @@
+.small-images img {
+  display: inline-block;
+}
+
+.small-images img {
+  border: 1px solid black;
+  margin-right: 15px;
+  max-width: 140px !important;
+}
+
+.small-images:hover {
+  cursor: pointer;
+}
+
+.small-images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 35px 0;
+}
+
+.big-image {
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+  overflow: hidden;
+}
+
+.ses-para {
+  background: #F4F4F4;
+  padding: 15px;
+}
+
+.big-image:hover .big-image img {
+  -webkit-transform: scale(2);
+          transform: scale(2);
+}
+
+.header-top {
+  background-color: #121212;
+}
+
+.header-top .ef-button {
+  background: transparent;
+  border: 2px solid red;
+  color: #fff;
+  font-weight: bold;
+  padding: 5px 18px;
+}
+
+.header-top i {
+  color: #fff;
+  font-size: 18px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.header-top a {
+  color: #fff;
+  font-weight: bold;
+  position: relative;
+}
+
+.header-top a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: -2px;
+  left: 32px;
+  width: 100%;
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewbox="0 0 16 16"><polygon fill="%23747577" points="6,13.4 4.6,12 8.6,8 4.6,4 6,2.6 11.4,8"></polygon></svg>');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header-top .last::before {
+  background-image: none;
+}
+
+.sup-menu {
+  height: 45px;
+  line-height: 45px;
+  border-bottom: 1px solid #ccc;
+}
+
+.sup-menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.sup-menu ul li a {
+  color: #000;
+}
+
+.main-content {
+  padding-top: 60px;
+}
+
+.main-content .single-product img {
+  max-width: 100%;
+}
+
+.main-content .product-des h2,
+.main-content .product-des h5 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.main-content .product-des .ef-shop-product__price span {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.main-content .product-des p {
+  font-size: 18px;
+}
+
+.main-content .product-des p a {
+  color: #949597;
+}
+
+.main-content .product-des p a span {
+  display: block;
+}
+
+.main-content .product-des .ef-form-item .ef-form-item {
+  margin-bottom: 30px;
+}
+
+.main-content .product-des .ef-form-item .ef-product-add__delivery {
+  color: #949597;
+}
+
+.main-content .product-des .ef-form-item .ef-copy-block ul {
+  padding-bottom: 20px;
+}
+
+.main-content .product-des .ef-form-item .ef-copy-block ul li {
+  color: #343537;
+  font-size: 18px;
+  position: relative;
+  left: 10px;
+}
+
+.main-content .product-des .ef-form-item .ef-copy-block ul li::before {
+  position: absolute;
+  top: 11px;
+  content: "";
+  left: -17px;
+  width: 8px;
+  color: red;
+  height: 8px;
+  font-weight: 700;
+  z-index: 999999999;
+  background: red;
+  border-radius: 50%;
+}
+
+.main-content .product-des .ef-form-item .ef-form-item__field {
+  padding: 8px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.main-content .product-des .ef-form-item .ef-button--primary {
+  padding: 8px 20px;
+  margin-bottom: 20px;
+  background-color: #e00914;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  font-size: 18px;
+}
+
+.main-content .product-des .ef-form-item .ef-form-item__label {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.main-content .product-des .ef-form-item .ef-stepper__min,
+.main-content .product-des .ef-form-item .ef-stepper__input,
+.main-content .product-des .ef-form-item .ef-stepper__max {
+  padding: 8px;
+}
+
+.main-content .product-des .ef-form-item .ef-stepper__min,
+.main-content .product-des .ef-form-item .ef-stepper__max {
+  border: none;
+  background: transparent;
+}
+
+.main-content .product-des .ef-form-item .ef-stepper__input {
+  border: none;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  text-align: center;
+}
+
+.main-content .product-des .ef-form-item .ef-stepper__min {
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  border-left: 1px solid #000;
+}
+
+.main-content .product-des .ef-form-item .ef-stepper__min:focus {
+  outline: none;
+}
+
+.main-content .product-des .ef-form-item .ef-stepper__max {
+  border-right: 1px solid #000;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+.main-content .product-des .ef-form-item .ef-stepper__max:focus {
+  outline: none;
+}
+
+.relate-product h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 50px 0;
+  color: #000;
+}
+
+.relate-product .single-relate-product {
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.relate-product .single-relate-product .product-head {
+  overflow: hidden;
+}
+
+.relate-product .single-relate-product .product-head a img {
+  width: 100%;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.relate-product .single-relate-product .product-head a img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.relate-product .single-relate-product .bag-product {
+  width: 118px;
+  height: 56px;
+  background: #000;
+  color: #fff;
+  font-size: 13px;
+  text-transform: uppercase;
+  padding: 10px;
+  font-weight: bold;
+  position: absolute;
+  top: 23px;
+  left: 12px;
+}
+
+.relate-product .product-body {
+  text-align: center;
+  border-bottom: 2px solid #ccc;
+}
+
+.relate-product .product-body h5 {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.service-area .single-service {
+  text-align: center;
+}
+
+.service-area .single-service img {
+  padding-bottom: 20px;
+}
+
+.service-area .single-service h5 {
+  font-size: 15px;
+  color: #000;
+  font-weight: bold;
+  padding-bottom: 100px;
+}
+
+footer {
+  padding-top: 90px;
+  padding-bottom: 60px;
+  background-color: #121212;
+}
+
+footer .ef-shop-info p span a {
+  color: #fff;
+}
+
+footer .ef-payment-logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .footer-group-visa h6 {
+  color: #fff;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=style.css.map */
